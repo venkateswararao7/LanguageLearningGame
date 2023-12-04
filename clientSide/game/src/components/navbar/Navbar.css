@@ -1,0 +1,42 @@
+/* Navbar.css */
+
+.nav-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-bar {
+    width: 90%;
+    height: 5%;
+}
+
+.nav-icons {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    flex: 1;
+}
+
+.nav-icons h2 {
+    display: inline;
+    margin-bottom: 0.5rem;
+}
+
+.icon {
+    font-size: 8px;
+
+}
+
+@media screen and (max-width: 769px) {
+    .icon {
+        font-size: 4px;
+
+    }
+
+    .nav-icons h2 {
+        display: none;
+    }
+}
